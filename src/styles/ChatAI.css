@@ -1,0 +1,93 @@
+/* Tombol di kanan bawah */
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #252525;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-button:hover {
+  background-color: #000000;
+}
+
+/* Popup Chat */
+.chat-popup {
+  font-size: 15px;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.chat-header {
+  font-size: 18px;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.chat-body {
+  padding: 10px;
+}
+
+.chat-body input {
+  width: calc(100% - 80px);
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.chat-body button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.chat-body button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.response {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.response h4 {
+  margin: 0;
+}
