@@ -67,17 +67,17 @@ const Home = () => {
         </div>
         <div className="flex flex-col w-full px-4 md:px-10">
           <div className="rounded-lg p-5">
-            <div className="flex md:flex-row items-center gap-5 md:gap-10">
-              <img className='rounded-lg' src={pp} alt="" />
-              <div className="text-left">
+            <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10">
+              <img className='rounded-lg w-full md:w-auto' src={pp} alt="" />
+              <div className="text-center md:text-left">
                 <h1 className='text-3xl md:text-6xl text-white font-bold'>soft serenity</h1>
-                <div className="flex md:flex-row mb-8 gap-3 text-white font-semibold items-center justify-center md:justify-start">
+                <div className="flex flex-col md:flex-row mb-8 gap-3 text-white font-semibold items-center justify-center md:justify-start">
                   <img className='w-10 h-10 rounded-full' src={padel} alt="" />
                   <p>perkedelmewing</p>
                   <p className='hidden md:block'>-</p>
                   <p className='text-gray-500'>34 lagu, sekitar 2 jam</p>
                 </div>
-                <div className="flex md:justify-start">
+                <div className="flex justify-center md:justify-start">
                   <a className='text-green-500 text-sm p-2 px-4 border border-green-600 rounded-lg' href="">Kunjungi Playlist</a>
                 </div>
               </div>
