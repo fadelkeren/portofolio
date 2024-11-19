@@ -114,7 +114,7 @@ const ChatAI = () => {
       <AnimatePresence>
         {isPopupOpen && (
           <motion.div 
-            className="fixed bottom-24 right-6 
+            className="fixed bottom-24 right-2
               w-[95vw] max-w-md 
               sm:w-80 
               md:w-[500px] 
