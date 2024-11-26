@@ -78,7 +78,7 @@ const Home = () => {
                   <p className='text-gray-500'>34 lagu, sekitar 2 jam</p>
                 </div>
                 <div className="flex justify-center md:justify-start">
-                  <a className='text-green-500 text-sm p-2 px-4 border border-green-600 rounded-lg' href="">Kunjungi Playlist</a>
+                  <a className='text-green-500 text-sm p-2 px-4 border border-green-600 rounded-lg' href="https://open.spotify.com/playlist/15A6AHZZH8f5z9n5Ah3PSg?si=mQM4dYwHQTKZUROw-I-EjA">Kunjungi Playlist</a>
                 </div>
               </div>
             </div>
