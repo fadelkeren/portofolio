@@ -91,11 +91,10 @@ const Home = () => {
             {[
               {name: "unknown", comment: "Uyy fadellll❤️", bg: "bg-white"},
               {name: "rakhasukacoklat", comment: "kereenn ajarin dongg😥", bg: "bg-white"},
-              {name: "ryallnyel", comment: "Elek dell", bg: "bg-gray-600"},
-              {name: "Fatartyl", comment: "anjir ada ai ne, gg gg", bg: "bg-gray-700"},
-              {name: "Lukman hytdn", comment: "Wahaha keren fadell😆", bg: "bg-white"},
-              {name: "Dewi", comment: "tailwind?", bg: "bg-gray-700"},
-              {name: "rozi", comment: "ngerii rpl1🔥", bg: "bg-gray-700"}
+              {name: "bawok67", comment: "Elek dell", bg: "bg-gray-600"},
+              {name: "Lemonsky", comment: "anjir ada ai ne, gg gg", bg: "bg-gray-700"},
+              {name: "hytdn", comment: "Wahaha keren fadell😆", bg: "bg-white"},
+              {name: "Dewi", comment: "tailwind?", bg: "bg-gray-700"}
             ].map((item, index) => (
               <div key={index} className={`${item.bg} text-${item.bg === 'bg-white' ? 'black' : 'white'} p-3 md:p-5 border border-gray-800 rounded-lg`}>
                 <h2 className={`text-sm md:text-lg font-bold ${item.bg === 'bg-white' ? 'text-black' : 'text-white'}`}>{item.name}</h2>
